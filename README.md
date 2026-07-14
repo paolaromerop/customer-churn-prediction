@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="cover.png" width="850">
+  <img src="cover.png" width="650">
 </p>
 
 # 📊 Customer Churn Prediction
