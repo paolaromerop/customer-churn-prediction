@@ -1,6 +1,7 @@
 <p align="center">
   <img src="cover.png" width="650">
 </p>
+Machine Learning project that predicts customer churn in the telecommunications industry using classification models and business-oriented performance metrics.
 
 # 📊 Customer Churn Prediction
 
