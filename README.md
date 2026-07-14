@@ -1,4 +1,19 @@
+<p align="center">
+  <img src="cover.png" width="850">
+</p>
+
 # 📊 Customer Churn Prediction
+
+**Industry:** Telecommunications
+
+**Project Type:** Machine Learning Classification
+
+**Best Model:** CatBoost
+
+**ROC-AUC:** 0.90
+
+**Tools:** Python · pandas · scikit-learn · CatBoost
+
 
 ## Project Overview
 
