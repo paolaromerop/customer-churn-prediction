@@ -2,51 +2,53 @@
   <img src="cover.jpg" width="650">
 </p>
 
-
 # 📊 Customer Churn Prediction
+
 Machine Learning project that predicts customer churn in the telecommunications industry using classification models and business-oriented performance metrics.
 
-**Industry:** Telecommunications
+---
 
-**Project Type:** Machine Learning Classification
+## 📌 Project Summary
 
-**Best Model:** CatBoost
+This project focuses on predicting customer churn for a telecommunications company. The objective was to identify customers at high risk of cancelling their service so the company can implement proactive retention strategies.
 
-**ROC-AUC:** 0.90
-
-**Tools:** Python · pandas · scikit-learn · CatBoost
-
-
-## Project Overview
-
-Customer retention is one of the most important challenges for subscription-based businesses. Acquiring a new customer is usually more expensive than retaining an existing one, making early churn detection a valuable business tool.
-
-In this project, I developed a machine learning model capable of identifying customers at risk of cancelling their telecommunications service.
+The project includes data integration, exploratory data analysis, feature engineering, model comparison, hyperparameter optimization, and business-oriented evaluation to select the most suitable predictive model.
 
 ---
 
-## Business Problem
+## 🏆 Key Results
 
-The telecommunications company wanted to predict which customers were likely to leave the service in order to implement proactive retention strategies.
-
-The objective was to build a classification model that could accurately identify customers with high churn probability while minimizing false negatives.
+- **Best Model:** CatBoost (Balanced)
+- **ROC-AUC:** **0.90**
+- **F1-score:** **0.69**
+- Compared **10 different modeling strategies**
+- Evaluated Logistic Regression, Random Forest and CatBoost models
+- Selected the final model based on predictive performance and business applicability
 
 ---
 
-## Dataset
+## 💼 Business Problem
 
-The project integrates information from multiple datasets, including:
+Customer acquisition is considerably more expensive than customer retention. Being able to identify customers likely to leave the service allows companies to implement targeted retention campaigns before cancellation occurs.
+
+The goal was to develop a classification model capable of identifying customers with high churn probability while minimizing false negatives.
+
+---
+
+## 📂 Dataset
+
+The analytical dataset was built by integrating multiple sources:
 
 - Customer contracts
 - Personal information
 - Internet services
 - Telephone services
 
-After data cleaning and feature engineering, all datasets were merged into a single analytical dataset.
+The project included data cleaning, preprocessing, handling missing values and feature engineering before model development.
 
 ---
 
-## Technologies
+## ⚙️ Technologies
 
 - Python
 - pandas
@@ -58,55 +60,91 @@ After data cleaning and feature engineering, all datasets were merged into a sin
 
 ---
 
-## Project Workflow
+## 🔬 Project Workflow
 
-- Data cleaning
+- Data Cleaning
 - Exploratory Data Analysis (EDA)
 - Feature Engineering
-- Model training
-- Hyperparameter optimization
-- Model comparison
-- Performance evaluation
+- Data Preprocessing
+- Model Training
+- Hyperparameter Optimization
+- Model Comparison
+- Performance Evaluation
+- Business Interpretation
 
 ---
 
-## Models Evaluated
+## 🤖 Models Evaluated
+
+The following models were trained and compared:
 
 - Logistic Regression
+- Logistic Regression (Balanced)
+- Logistic Regression + Threshold Optimization
 - Random Forest
+- Random Forest (Balanced)
+- Random Forest (Optimized)
 - CatBoost
+- CatBoost (Balanced)
+- CatBoost (Optimized)
+- Dummy Classifier (Baseline)
 
-Different balancing strategies and decision thresholds were evaluated to maximize business performance.
+Model performance was evaluated using:
 
----
-
-## Results
-
-✅ Best model: **CatBoost**
-
-Main metrics:
-
-- ROC-AUC: **0.90**
-- F1 Score: **0.69**
-
-The final model demonstrated strong predictive performance and provides a solid foundation for customer retention strategies.
+- F1-score
+- Accuracy
+- ROC-AUC
 
 ---
 
-## Repository Contents
+## 📈 Model Selection
+
+Ten different modeling strategies were evaluated to identify the most effective solution.
+
+Among all tested approaches, **CatBoost with class balancing** achieved the best overall performance, providing the best balance between predictive accuracy, robustness and business applicability.
+
+The final model reached:
+
+- **ROC-AUC:** **0.90**
+- **F1-score:** **0.69**
+
+These results demonstrate strong predictive capability while maintaining good generalization performance.
+
+---
+
+## 💡 Business Impact
+
+This solution enables the company to proactively identify customers at risk of churn and prioritize retention efforts.
+
+Potential business benefits include:
+
+- Reduced customer attrition
+- Lower customer acquisition costs
+- More efficient retention campaigns
+- Better allocation of marketing resources
+
+---
+
+## 📁 Repository Structure
 
 ```
-customer_churn_prediction.ipynb
-README.md
+customer-churn-prediction
+│
+├── customer_churn_prediction.ipynb
+├── README.md
+└── cover.png
 ```
 
 ---
 
-## Author
+## 👩‍💻 Author
 
 **Paola Romero**
 
 Data Analyst | Business Intelligence | Data Science
 
-Portfolio:
+📁 Portfolio  
 https://paolaromerop.github.io/paola-portafolio/
+
+💼 LinkedIn  
+https://www.linkedin.com/in/paolaromerop/
