@@ -141,8 +141,6 @@ customer-churn-prediction
 
 **Paola Romero**
 
----
-
 
 Data Analyst | Business Intelligence | Data Science
 
