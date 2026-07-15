@@ -143,7 +143,6 @@ customer-churn-prediction
 
 ---
 
-Developed as the capstone project for the TripleTen Data Science Bootcamp, applying end-to-end machine learning techniques to solve a real-world business problem.
 
 Data Analyst | Business Intelligence | Data Science
 
@@ -152,3 +151,7 @@ https://paolaromerop.github.io/paola-portafolio/
 
 💼 LinkedIn  
 https://www.linkedin.com/in/paolaromerop/
+
+---
+
+Developed as the capstone project for the TripleTen Data Science Bootcamp, applying end-to-end machine learning techniques to solve a real-world business problem.
